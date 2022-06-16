@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Fuctional TestSuite">
+  <test name="Multiple Failure Handling Test">
+    <classes>
+      <class name="tescases.TestMultipleFailureHandling"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Testcase Dependency Test">
+    <classes>
+      
+      <class name="tescases.TestTestcaseDependency"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Testng Basic Test">
+    <classes>
+      
+      <class name="tescases.TestngBasic"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Testng assertion Test">
+    <classes>
+      
+      <class name="tescases.TestngAssertion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
